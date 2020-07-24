@@ -51,7 +51,7 @@ Make sure you’re on the right branch as well as under the right folder
   * Lastly use `git push` to transfer your local changes to the remote GitHub repository.
     * you can push more than one git commit at a time; git will maintain the order accordingly.
     
-### Brancing
+### Branching
 Branches allow multiple versions of the code to coexist at once, making team development more streamlined. For example, I can have the master branch for the official code, and another branch called auto for development
 * To switch to an existing branch, run: `git checkout <branch_name>`. You may need to pull after switching
 * To create a new branch (from the current branch) and switch to it, run: `git checkout -b <branch_name>`
