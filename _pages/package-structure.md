@@ -3,7 +3,7 @@
 ### Subsystem Organization
 * One useful way to organize your code is with a subsystem organization — essentially, we are breaking down the robot into respective hardware classes. 
   *For example, for a mecanum drive train, we have one OpMode. In this example, that is Drive.java. By separating hardware into classes like this, we can test each piece of hardware separately - for example, we can test the drivetrain even when the lift is not ready to test. 
-
+![Our sample subsystem organization](/_pages/subsystem.png)
 * As you can see here, in Drive.java, we are creating a MecanumDrive object, which is our subsystem. Now, we can make use of MecanumDrive.java’s methods, like init(), controller(), getLFrontPower(), getLFrontVelocity(), etc. We also have a similar Lift subsystem, so you can see that I used this subsystem to create a lift object in Drive as well. 
 
 * Another useful class to have is a Constants.java class, containing constants that are useful for all classes. 
