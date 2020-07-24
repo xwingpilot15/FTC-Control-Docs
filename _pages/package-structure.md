@@ -6,7 +6,11 @@
   
 ![Our sample subsystem organization](/_pages/subsystem.png)
 
+
 * As you can see here, in Drive.java, we are creating a MecanumDrive object, which is our subsystem. Now, we can make use of MecanumDrive.java’s methods, like init(), controller(), getLFrontPower(), getLFrontVelocity(), etc. We also have a similar Lift subsystem, so you can see that I used this subsystem to create a lift object in Drive as well. 
+
+![Objects](/_pages/subsystem_objects.png)
+
 
 * Another useful class to have is a Constants.java class, containing constants that are useful for all classes. 
 
