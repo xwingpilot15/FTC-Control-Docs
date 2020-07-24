@@ -21,6 +21,8 @@ Subsystems allow for more consistency and greater efficiency, encouraging abstra
 ### .xml Configuration
 Another structure our teams are learning to implement are .xml configurations. Instead of having to enter every motor, servo, and sensor configuration from scratch on the robot controller phone, by creating an .xml configuration in Android Studio and loading it into the phone along with the rest of your code, managing your hardware map is a lot more efficient. As long as your team is regularly backing up your code, your existing .xml configuration can also be restored if you were to lose it.
 
+![.xml File](/_pages/xml.png)
+
 
 We learned this method from a TNT, team 9929, coach, so we thought we would share it with you all as well. [9929's Website](https://ftc9929.com/2019/12/16/stress-free-ftc-hardware-configurations/
 )
