@@ -1,3 +1,8 @@
+---
+layout: text
+permalink: /git-github/
+---
+
 # GIT / GITHUB SETUP
 
 ### Download and Install [Git](https://git-scm.com/downloads)
