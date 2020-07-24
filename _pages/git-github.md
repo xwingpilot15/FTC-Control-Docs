@@ -15,7 +15,22 @@
   * `git config --global user.email <the email you signed up to GitHub with>`   
 * You can confirm these commands worked by typing `git config --global user.name` (user.email for email)
 
-### Cloning a Repository
+### Creating an FTC Repository
+* Go to Git Bash
+* Navigate to an empty folder (this will store your repo)
+  * `cd <path to folder>`
+* `git init`
+* `git remote add upstream <FTC repo link>` (at the moment it's https://github.com/FIRST-Tech-Challenge/SkyStone)
+* `git pull upstream master`
+* Create an empty GitHub repository from the website interface (do NOT initialize it with a README, LICENSE, or gitignore)
+* `git remote add origin <your own empty repo link>`
+* `git push -u origin master`
+
+You would repeat this process (aside from git init and creating a new GitHub repo) whenever FTC releases an official update to their repo
+To remove a remote, use `git remote rm <remote-name>` so you can repeat the process again without naming conflicts.
+You could also skip creating new remotes altogether but it could get confusing (especially when FTC inevitably moves repos)
+
+### Cloning an existing Repository
 A repository (repo) is the remote storage space for your code   
 Cloning a repo downloads the repo onto your computer and sets up its configuration for use with git   
 #### Steps:
