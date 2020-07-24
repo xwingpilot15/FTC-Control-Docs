@@ -26,9 +26,9 @@
 * `git remote add origin <your own empty repo link>`
 * `git push -u origin master`
 
-You would repeat this process (aside from git init and creating a new GitHub repo) whenever FTC releases an official update to their repo
-To remove a remote, use `git remote rm <remote-name>` so you can repeat the process again without naming conflicts.
-You could also skip creating new remotes altogether but it could get confusing (especially when FTC inevitably moves repos)
+You would repeat this process (aside from git init and creating a new GitHub repo) whenever FTC releases an official update to their repo   
+To remove a remote, use `git remote rm <remote-name>` so you can repeat the process again without naming conflicts.  
+You could also skip creating new remotes altogether but it could get confusing (especially when FTC inevitably moves repos)  
 
 ### Cloning an existing Repository
 A repository (repo) is the remote storage space for your code   
